@@ -1,15 +1,5 @@
 
 # Simple FastAPI DevSecOps App
-<!-- 
-## Build & Security Badges
-![Build](https://github.com/Dhruv-k23/fastapi-devsecops/actions/workflows/ci.yml/badge.svg)
-![Security](https://img.shields.io/badge/security-passing-brightgreen)
-
-## Deployed Application
-Check out the live deployment on Render: [https://fastapi-devsecops.onrender.com](https://fastapi-devsecops.onrender.com)
-
-![Render Deployment Screenshot](assets/render1.png)
-![Render Deployment Screenshot](assets/render2.png) -->
 
 ## 🛡️ Build & Security Status
 
@@ -63,3 +53,6 @@ This single pipeline combines *development*, *testing*, and *security* steps to 
 7.  **Deployment (Extra Credit):** Although not part of the `ci.yml`, the successful completion of these checks typically triggers an automatic deployment to **Render**.
 
 This setup ensures that only code that is **functional**, **clean**, and **secure** ever makes it to the main branch or a deployment environment.
+
+![Render Deployment Screenshot](assets/render1.png)
+![Render Deployment Screenshot](assets/render2.png)
