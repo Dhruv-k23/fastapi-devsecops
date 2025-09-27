@@ -3,3 +3,4 @@ uvicorn
 pytest
 bandit
 flake8
+httpx
