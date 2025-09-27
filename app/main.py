@@ -1,3 +1,4 @@
+# app/main.py
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
@@ -55,7 +56,7 @@ HTML_CONTENT = """
 </head>
 <body>
     <div class="welcome-message">
-        Hello, DevSecOps!
+        Hello, DevSecOps Deployed!
     </div>
     <div class="link-text">
         <p>Check API Docs: <a href="/docs" style="color: #3b82f6; text-decoration: none;">/docs</a></p>
