@@ -27,7 +27,7 @@ jobs:
       run: flake8 app/ --max-line-length=100
 
     - name: Run tests
-      run: pytest
+      run: PYTHONPATH=. pytest
 
     - name: Run security scan (Bandit)
       run: bandit -r app/
