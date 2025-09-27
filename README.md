@@ -50,7 +50,7 @@ This single pipeline combines *development*, *testing*, and *security* steps to 
 4.  **Run Tests (Reliability Gate):** Executes **Pytest** to verify that the application logic works as expected. *A test failure stops the pipeline.*
 5.  **Static Application Security Testing (SAST):** Executes **Bandit** to scan the application code (`app/`) for common security issues like hardcoded passwords, use of vulnerable functions, and other best-practice violations.
 6.  **Secret Scanning:** Uses **Trufflehog** to recursively scan the entire repository for any accidentally committed secrets (API keys, tokens, etc.). This ensures no sensitive data is leaked into the codebase. *If a secret is found, the commit/PR is rejected (fails the pipeline).*
-7.  **Deployment (Extra Credit):** Although not part of the `ci.yml`, the successful completion of these checks typically triggers an automatic deployment to **Render**.
+7.  **Deployment :** Although not part of the `ci.yml`, the successful completion of these checks typically triggers an automatic deployment to **Render**.
 
 This setup ensures that only code that is **functional**, **clean**, and **secure** ever makes it to the main branch or a deployment environment.
 
