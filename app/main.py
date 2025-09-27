@@ -7,11 +7,13 @@
 # def root():
 #     return {"message": "Hello, DevSecOps!"}
 # app/main.py
+# app/main.py
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
+# HTML content with inline CSS for the animation
 HTML_CONTENT = """
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +69,7 @@ HTML_CONTENT = """
         Hello, DevSecOps!
     </div>
     <div class="link-text">
-        <p>Endpoint: / | Check API Docs: <a href="/docs" style="color: #3b82f6; text-decoration: none;">/docs</a></p>
+        <p>Check API Docs: <a href="/docs" style="color: #3b82f6; text-decoration: none;">/docs</a></p>
     </div>
 </body>
 </html>
@@ -80,4 +82,6 @@ def root():
     Returns an HTML response with an animated welcome message.
     """
     return HTML_CONTENT
+
+
 
