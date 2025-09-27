@@ -8,5 +8,5 @@
 ## Deployed Application
 Check out the live deployment on Render: [https://fastapi-devsecops.onrender.com](https://fastapi-devsecops.onrender.com)
 
-![Render Deployment Screenshot](render1.png)
-![Render Deployment Screenshot](render2.png)
+![Render Deployment Screenshot](assets/render1.png)
+![Render Deployment Screenshot](assets/render2.png)
