@@ -6,5 +6,3 @@ app = FastAPI()
 @app.get("/")
 def root():
     return {"message": "Hello, DevSecOps!"}
-app/main.py
-app/main.py
