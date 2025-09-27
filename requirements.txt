@@ -3,4 +3,3 @@ uvicorn
 pytest
 bandit
 flake8
-
