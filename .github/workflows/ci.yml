@@ -24,7 +24,7 @@ jobs:
 
 
     - name: Run lint (flake8)
-      # run: flake8 app/ --max-line-length=100
+      
       run: flake8 app/ --max-line-length=100 --ignore=E501
 
     - name: Run tests
