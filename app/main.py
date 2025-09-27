@@ -1,13 +1,3 @@
-# from fastapi import FastAPI
-
-# app = FastAPI()
-
-
-# @app.get("/")
-# def root():
-#     return {"message": "Hello, DevSecOps!"}
-# app/main.py
-# app/main.py
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
@@ -75,11 +65,9 @@ HTML_CONTENT = """
 """
 
 
-
 @app.get("/", response_class=HTMLResponse)
 def root():
     """
     Returns an HTML response with an animated welcome message.
     """
     return HTML_CONTENT
-
